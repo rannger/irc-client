@@ -11,7 +11,6 @@
 		106B43AD181A1A7900B62447 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 106B43AC181A1A7900B62447 /* Command.m */; };
 		8F49788D181AEBBB00EBFC2D /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49788C181AEBBB00EBFC2D /* Message.m */; };
 		8F497898181AF8CA00EBFC2D /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F497897181AF8CA00EBFC2D /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		8F49789A181AF97800EBFC2D /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F497899181AF97800EBFC2D /* libicucore.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +32,7 @@
 		106B4395181A103500B62447 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		106B43AB181A1A7900B62447 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
 		106B43AC181A1A7900B62447 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		8F3904D61F7B3F6200CCB609 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		8F49788B181AEBBB00EBFC2D /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
 		8F49788C181AEBBB00EBFC2D /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
 		8F497896181AF8CA00EBFC2D /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegexKitLite.h; path = RegexKitLite/RegexKitLite.h; sourceTree = "<group>"; };
@@ -45,7 +45,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F49789A181AF97800EBFC2D /* libicucore.dylib in Frameworks */,
 				106B4385181A103500B62447 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +73,7 @@
 		106B4383181A103500B62447 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8F3904D61F7B3F6200CCB609 /* libicucore.tbd */,
 				8F497899181AF97800EBFC2D /* libicucore.dylib */,
 				106B4384181A103500B62447 /* Foundation.framework */,
 				106B4395181A103500B62447 /* UIKit.framework */,

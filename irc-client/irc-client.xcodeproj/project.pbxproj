@@ -11,6 +11,7 @@
 		8F17E90F181EA95E007DB715 /* NSString+Height.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F17E90E181EA95E007DB715 /* NSString+Height.m */; };
 		8F17E912181EA971007DB715 /* IRCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F17E911181EA971007DB715 /* IRCManager.m */; };
 		8F17E915181EA9AE007DB715 /* MessageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F17E914181EA9AE007DB715 /* MessageManager.m */; };
+		8F3904D51F7B3F1200CCB609 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3904D41F7B3F1200CCB609 /* libicucore.tbd */; };
 		8F497844181ADB3100EBFC2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F497843181ADB3100EBFC2D /* Foundation.framework */; };
 		8F497846181ADB3100EBFC2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F497845181ADB3100EBFC2D /* CoreGraphics.framework */; };
 		8F497848181ADB3100EBFC2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F497847181ADB3100EBFC2D /* UIKit.framework */; };
@@ -21,7 +22,6 @@
 		8F49787E181ADCDB00EBFC2D /* libcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F49787D181ADC5200EBFC2D /* libcore.a */; };
 		8F497888181ADD4B00EBFC2D /* ChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F497883181ADD4B00EBFC2D /* ChannelViewController.m */; };
 		8F497889181ADD4B00EBFC2D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F497885181ADD4B00EBFC2D /* MainViewController.m */; };
-		8F49789C181AF98F00EBFC2D /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F49789B181AF98F00EBFC2D /* libicucore.dylib */; };
 		8FC706A718200191000EB8C9 /* Interlocutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC706A618200191000EB8C9 /* Interlocutor.m */; };
 		8FFE4107181D434800DB0280 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFE4106181D434800DB0280 /* StartViewController.m */; };
 		8FFE410A181D806200DB0280 /* NamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFE4109181D806200DB0280 /* NamesViewController.m */; };
@@ -53,6 +53,7 @@
 		8F17E911181EA971007DB715 /* IRCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRCManager.m; path = Network/IRCManager.m; sourceTree = "<group>"; };
 		8F17E913181EA9AE007DB715 /* MessageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageManager.h; path = Controller/MessageManager.h; sourceTree = "<group>"; };
 		8F17E914181EA9AE007DB715 /* MessageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageManager.m; path = Controller/MessageManager.m; sourceTree = "<group>"; };
+		8F3904D41F7B3F1200CCB609 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		8F497840181ADB3100EBFC2D /* irc-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "irc-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F497843181ADB3100EBFC2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8F497845181ADB3100EBFC2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -69,7 +70,6 @@
 		8F497883181ADD4B00EBFC2D /* ChannelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChannelViewController.m; path = Controller/ChannelViewController.m; sourceTree = "<group>"; };
 		8F497884181ADD4B00EBFC2D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Controller/MainViewController.h; sourceTree = "<group>"; };
 		8F497885181ADD4B00EBFC2D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Controller/MainViewController.m; sourceTree = "<group>"; };
-		8F49789B181AF98F00EBFC2D /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		8FC706A518200191000EB8C9 /* Interlocutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Interlocutor.h; path = Network/Interlocutor.h; sourceTree = "<group>"; };
 		8FC706A618200191000EB8C9 /* Interlocutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Interlocutor.m; path = Network/Interlocutor.m; sourceTree = "<group>"; };
 		8FFE4105181D434800DB0280 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartViewController.h; path = Controller/StartViewController.h; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F49789C181AF98F00EBFC2D /* libicucore.dylib in Frameworks */,
+				8F3904D51F7B3F1200CCB609 /* libicucore.tbd in Frameworks */,
 				8F49787E181ADCDB00EBFC2D /* libcore.a in Frameworks */,
 				8F497846181ADB3100EBFC2D /* CoreGraphics.framework in Frameworks */,
 				8F497848181ADB3100EBFC2D /* UIKit.framework in Frameworks */,
@@ -134,7 +134,7 @@
 		8F497842181ADB3100EBFC2D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8F49789B181AF98F00EBFC2D /* libicucore.dylib */,
+				8F3904D41F7B3F1200CCB609 /* libicucore.tbd */,
 				8F497878181ADC5200EBFC2D /* core.xcodeproj */,
 				8F497843181ADB3100EBFC2D /* Foundation.framework */,
 				8F497845181ADB3100EBFC2D /* CoreGraphics.framework */,
